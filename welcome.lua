@@ -1,7 +1,7 @@
 local function OnPlayerJoin(_, _, _, player)
   player:SendAreaTriggerMessage("Welcome to Waloria!")
 
-  SendWorldMessage("[|cff1ABC9CAnnouncer|r] Welcome to Waloria "..player:GetName().."!")
+  SendWorldMessage("[|cff1ABC9CAnnouncer|r] Welcome to the server "..player:GetName().."!")
 end
 
 function OnPlayerFirstJoin(event, player)
