@@ -4,8 +4,8 @@ local GMLEVEL = 1;
 function CheckItemVIP (event, player, unit)
 	local VIP_ITEM_COUNT = player:HasItem(itemID_VIP, 1); 
 	local playerid = player:GetAccountId(); --GETS THE PLAYERS INGAME ACCOUNT ID
-	if (VIP_ITEM_COUNT) then -- CHECK IF HE IS ALREADY VIP I
-		if player:GetGMRank() >= 1 then
+	if (VIP_ITEM_COUNT) then -- CHECK FOR ITEM
+		if player:GetGMRank() >= 1 then -- CHECK IF HE IS ALREADY VIP I
 		player:SendAreaTriggerMessage("You are already VIP I or bigger!")
 		else
 		AuthDBQuery("REPLACE INTO `ACCOUNT_ACCESS` VALUES (".. playerid ..","..GMLEVEL..",-1)") -- CHANGES PLAYER GMLEVEL INSIDE AUTH DATABASE
