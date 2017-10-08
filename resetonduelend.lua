@@ -1,5 +1,7 @@
--- Simple script that resets both players cooldowns and hp
--- when a duel ends.
+--[[ 
+Simple script that resets both players 
+cooldowns and hp when a duel ends. 
+]]--
 
 local event_id = 11;
 
