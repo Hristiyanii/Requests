@@ -1,5 +1,5 @@
 local function OnPlayerJoin(_, _, _, player)
-  player:SendAreaTriggerMessage("Welcome to $SERVERNAME!")
+  player:SendAreaTriggerMessage("Welcome to the server!")
 
   SendWorldMessage("[|cff1ABC9CAnnouncer|r] Welcome to the server "..player:GetName().."!")
 end
