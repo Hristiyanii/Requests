@@ -8,4 +8,4 @@ function OnPlayerFirstJoin(event, player)
   player:RegisterEvent(OnPlayerJoin, 1000, 1)
 end
 
-RegisterPlayerEvent(30, OnPlayerFirstJoin)
+RegisterPlayerEvent(1, OnPlayerFirstJoin)
