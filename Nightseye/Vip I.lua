@@ -25,4 +25,4 @@ RegisterItemEvent(itemID_VIP, 2, CheckItemVIP)
 
 
 -- VIP I activation via stone 2017 Written by TITKATA_BG/Deathless
--- You can vind the sql file at the folder!
+-- You can find the sql file at the folder!
