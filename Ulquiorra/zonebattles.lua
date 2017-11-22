@@ -8,7 +8,13 @@ local ZoneBattles = {
         [0] = 0, -- Declare Alliance Score
         [1] = 0; -- Declare Horde Score
 };
- 
+
+local map = 1;
+local x = 1;
+local y = 1;
+local z = 1;
+local o = 1;
+
 local function TeamAsString(team)
         if (team == 0) then
                 return "Alliance";
